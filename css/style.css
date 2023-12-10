@@ -31,3 +31,73 @@ button[type="submit"]{
     border-radius: 3px;
     cursor: pointer;
 }
+
+.formulario {
+    display: none;
+    text-align: center;
+}
+button[type="submit"],
+.btn-guardar {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-cancelar {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.developer-info {
+    color: #333; /* Color de texto oscuro */
+    margin-top: 20px;
+}
+
+.developer-info a {
+    color: #007bff; /* Color de enlace azul */
+}
+
+/* Estilos generales */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.developer-info {
+    color: #333;
+    margin-top: 20px;
+}
+
+.developer-info a {
+    color: #007bff;
+}
+
+/* Media query para ajustar estilos en pantallas más pequeñas */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .developer-info {
+        font-size: 14px;
+    }
+}
